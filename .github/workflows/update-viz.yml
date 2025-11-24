@@ -3,14 +3,14 @@ name: Update Usage Visualization
 on:
   push:
     paths:
-      - 'data/usage_history.json' # Only runs when JSON changes
+      - 'data/*.json' # Runs when either Claude or Codex history updates
   workflow_dispatch:
 
 jobs:
   generate-graph:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Needed to commit the SVG
+      contents: write
 
     steps:
       - name: Checkout Repo
@@ -21,13 +21,14 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generate SVG
+      - name: Generate SVGs
         run: node scripts/generate.js
 
-      - name: Commit SVG
+      - name: Commit SVGs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add usage.svg
-          git commit -m "chore: update usage graph svg" || echo "No changes to svg"
+          # Add both SVG files
+          git add usage.svg usage_codex.svg
+          git commit -m "chore: update usage graphs" || echo "No changes"
           git push

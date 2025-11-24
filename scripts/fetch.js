@@ -1,57 +1,79 @@
-// scripts/fetch.js
 const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
 const ROOT_DIR = path.resolve(__dirname, '..');
-const DATA_FILE = path.join(ROOT_DIR, 'data', 'usage_history.json');
 
-console.log('📡 1. Syncing with Remote...');
-try {
-    // Ensure we have the latest history from GitHub before merging
-    execSync('git pull', { stdio: 'ignore', cwd: ROOT_DIR });
-} catch (e) {
-    console.warn('⚠️  Git pull failed (maybe no remote yet). Continuing...');
+// Helper to Fetch & Merge
+function updateService(name, command, fileName) {
+    const filePath = path.join(ROOT_DIR, 'data', fileName);
+    console.log(`\n📊 Processing ${name}...`);
+
+    // 1. Fetch
+    console.log(`   Fetching fresh data...`);
+    let freshData;
+    try {
+        // Echo 'y' to handle installation prompts automatically
+        const output = execSync(`echo "y" | ${command}`, { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'ignore'] });
+        const jsonStart = output.indexOf('{');
+        if (jsonStart === -1) throw new Error("No JSON output found.");
+        freshData = JSON.parse(output.substring(jsonStart));
+    } catch (e) {
+        console.error(`❌ Failed to fetch ${name}: ${e.message}`);
+        return; 
+    }
+
+    // 2. Load Existing History
+    let history = { daily: [] };
+    if (fs.existsSync(filePath)) {
+        try {
+            history = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        } catch (e) {
+            console.warn(`   ⚠️ Could not read existing history, starting fresh.`);
+        }
+    }
+
+    // 3. Merge (Deduplicate by Date)
+    const map = new Map();
+    // Load old history (Normalize date keys to YYYY-MM-DD)
+    (history.daily || []).forEach(d => {
+        const key = new Date(d.date).toISOString().split('T')[0];
+        map.set(key, d);
+    });
+    // Overlay fresh data
+    (freshData.daily || []).forEach(d => {
+        const key = new Date(d.date).toISOString().split('T')[0];
+        map.set(key, d);
+    });
+
+    // 4. Sort & Save
+    const sorted = Array.from(map.values()).sort((a, b) => new Date(a.date) - new Date(b.date));
+    history.daily = sorted;
+    history.lastUpdated = new Date().toISOString();
+
+    const dataDir = path.dirname(filePath);
+    if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
+    fs.writeFileSync(filePath, JSON.stringify(history, null, 2));
+    
+    console.log(`✅ ${name} history updated (${sorted.length} days).`);
 }
 
-console.log('📊 2. Fetching fresh data (Last 30 days)...');
-let freshData;
+// --- EXECUTION ---
+console.log('📡 Syncing with Remote...');
+try { execSync('git pull', { stdio: 'ignore', cwd: ROOT_DIR }); } catch (e) {}
+
+// Update Claude (Legacy file: usage_history.json)
+updateService('Claude', 'npx ccusage@latest --json', 'usage_history.json');
+
+// Update Codex (New file: codex_history.json)
+updateService('Codex', 'npx @ccusage/codex@latest --json', 'codex_history.json');
+
+console.log('\n🚀 Pushing data to GitHub...');
 try {
-    const output = execSync('echo "y" | npx ccusage@latest --json', { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'ignore'] });
-    const jsonStart = output.indexOf('{');
-    freshData = JSON.parse(output.substring(jsonStart));
-} catch (e) {
-    console.error('❌ Failed to fetch. Check internet/login.');
-    process.exit(1);
-}
-
-console.log('🔗 3. Merging History...');
-let history = { daily: [] };
-if (fs.existsSync(DATA_FILE)) {
-    history = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-}
-
-const map = new Map();
-// Load old history
-(history.daily || []).forEach(d => map.set(d.date, d));
-// Overwrite with fresh data
-(freshData.daily || []).forEach(d => map.set(d.date, d));
-
-// Sort and Save
-const sorted = Array.from(map.values()).sort((a, b) => new Date(a.date) - new Date(b.date));
-history.daily = sorted;
-history.lastUpdated = new Date().toISOString();
-
-const dataDir = path.dirname(DATA_FILE);
-if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
-fs.writeFileSync(DATA_FILE, JSON.stringify(history, null, 2));
-
-console.log('🚀 4. Pushing JSON to GitHub...');
-try {
-    execSync(`git add "${DATA_FILE}"`, { cwd: ROOT_DIR, stdio: 'inherit' });
-    execSync('git commit -m "data: update claude usage history"', { cwd: ROOT_DIR, stdio: 'inherit' });
+    execSync('git add data/*.json', { cwd: ROOT_DIR, stdio: 'inherit' });
+    execSync('git commit -m "data: update AI usage history" || echo "No changes"', { cwd: ROOT_DIR, stdio: 'inherit' });
     execSync('git push', { cwd: ROOT_DIR, stdio: 'inherit' });
-    console.log('✅ JSON pushed. GitHub Action will now generate the graph.');
+    console.log('✅ Done. GitHub Action will generate graphs.');
 } catch (e) {
-    console.log('ℹ️  No changes to push.');
+    console.log('ℹ️ Push failed or no changes.');
 }

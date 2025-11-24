@@ -1,0 +1,1314 @@
+{
+  "daily": [
+    {
+      "date": "Sep 12, 2025",
+      "inputTokens": 14637184,
+      "cachedInputTokens": 13823616,
+      "outputTokens": 97385,
+      "reasoningOutputTokens": 32896,
+      "totalTokens": 14734569,
+      "costUSD": 3.718762,
+      "models": {
+        "gpt-5": {
+          "inputTokens": 14637184,
+          "cachedInputTokens": 13823616,
+          "outputTokens": 97385,
+          "reasoningOutputTokens": 32896,
+          "totalTokens": 14734569,
+          "isFallback": true
+        }
+      }
+    },
+    {
+      "date": "Sep 14, 2025",
+      "inputTokens": 5225150,
+      "cachedInputTokens": 4842496,
+      "outputTokens": 71655,
+      "reasoningOutputTokens": 42624,
+      "totalTokens": 5296805,
+      "costUSD": 1.8001795,
+      "models": {
+        "gpt-5": {
+          "inputTokens": 5225150,
+          "cachedInputTokens": 4842496,
+          "outputTokens": 71655,
+          "reasoningOutputTokens": 42624,
+          "totalTokens": 5296805,
+          "isFallback": true
+        }
+      }
+    },
+    {
+      "date": "Sep 15, 2025",
+      "inputTokens": 6248519,
+      "cachedInputTokens": 5794176,
+      "outputTokens": 35254,
+      "reasoningOutputTokens": 18560,
+      "totalTokens": 6283773,
+      "costUSD": 1.6447407500000002,
+      "models": {
+        "gpt-5": {
+          "inputTokens": 6248519,
+          "cachedInputTokens": 5794176,
+          "outputTokens": 35254,
+          "reasoningOutputTokens": 18560,
+          "totalTokens": 6283773,
+          "isFallback": true
+        }
+      }
+    },
+    {
+      "date": "Sep 16, 2025",
+      "inputTokens": 17625989,
+      "cachedInputTokens": 16889216,
+      "outputTokens": 70671,
+      "reasoningOutputTokens": 31232,
+      "totalTokens": 17696660,
+      "costUSD": 3.73882825,
+      "models": {
+        "gpt-5": {
+          "inputTokens": 17475152,
+          "cachedInputTokens": 16763392,
+          "outputTokens": 63179,
+          "reasoningOutputTokens": 27968,
+          "totalTokens": 17538331,
+          "isFallback": true
+        },
+        "gpt-5-codex": {
+          "inputTokens": 150837,
+          "cachedInputTokens": 125824,
+          "outputTokens": 7492,
+          "reasoningOutputTokens": 3264,
+          "totalTokens": 158329,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 17, 2025",
+      "inputTokens": 83428193,
+      "cachedInputTokens": 79055360,
+      "outputTokens": 542048,
+      "reasoningOutputTokens": 325696,
+      "totalTokens": 83970241,
+      "costUSD": 20.76844125,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 83428193,
+          "cachedInputTokens": 79055360,
+          "outputTokens": 542048,
+          "reasoningOutputTokens": 325696,
+          "totalTokens": 83970241,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 18, 2025",
+      "inputTokens": 47493798,
+      "cachedInputTokens": 45867136,
+      "outputTokens": 283527,
+      "reasoningOutputTokens": 135744,
+      "totalTokens": 47777325,
+      "costUSD": 10.6019895,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 47493798,
+          "cachedInputTokens": 45867136,
+          "outputTokens": 283527,
+          "reasoningOutputTokens": 135744,
+          "totalTokens": 47777325,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 19, 2025",
+      "inputTokens": 4940347,
+      "cachedInputTokens": 4819584,
+      "outputTokens": 33104,
+      "reasoningOutputTokens": 21184,
+      "totalTokens": 4973451,
+      "costUSD": 1.0844417499999999,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 4940347,
+          "cachedInputTokens": 4819584,
+          "outputTokens": 33104,
+          "reasoningOutputTokens": 21184,
+          "totalTokens": 4973451,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 20, 2025",
+      "inputTokens": 13841520,
+      "cachedInputTokens": 13179520,
+      "outputTokens": 89645,
+      "reasoningOutputTokens": 48128,
+      "totalTokens": 13931165,
+      "costUSD": 3.37139,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 13841520,
+          "cachedInputTokens": 13179520,
+          "outputTokens": 89645,
+          "reasoningOutputTokens": 48128,
+          "totalTokens": 13931165,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 22, 2025",
+      "inputTokens": 13525444,
+      "cachedInputTokens": 13151232,
+      "outputTokens": 109955,
+      "reasoningOutputTokens": 67968,
+      "totalTokens": 13635399,
+      "costUSD": 3.211219,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 13525444,
+          "cachedInputTokens": 13151232,
+          "outputTokens": 109955,
+          "reasoningOutputTokens": 67968,
+          "totalTokens": 13635399,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 23, 2025",
+      "inputTokens": 15570888,
+      "cachedInputTokens": 14853248,
+      "outputTokens": 132344,
+      "reasoningOutputTokens": 67392,
+      "totalTokens": 15703232,
+      "costUSD": 4.077146,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 15570888,
+          "cachedInputTokens": 14853248,
+          "outputTokens": 132344,
+          "reasoningOutputTokens": 67392,
+          "totalTokens": 15703232,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 24, 2025",
+      "inputTokens": 46290236,
+      "cachedInputTokens": 44367232,
+      "outputTokens": 310694,
+      "reasoningOutputTokens": 185472,
+      "totalTokens": 46600930,
+      "costUSD": 11.056599,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 43823716,
+          "cachedInputTokens": 42014592,
+          "outputTokens": 294975,
+          "reasoningOutputTokens": 176128,
+          "totalTokens": 44118691,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 2466520,
+          "cachedInputTokens": 2352640,
+          "outputTokens": 15719,
+          "reasoningOutputTokens": 9344,
+          "totalTokens": 2482239,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 25, 2025",
+      "inputTokens": 60189449,
+      "cachedInputTokens": 58567424,
+      "outputTokens": 413083,
+      "reasoningOutputTokens": 259520,
+      "totalTokens": 60602532,
+      "costUSD": 13.47928925,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 60189449,
+          "cachedInputTokens": 58567424,
+          "outputTokens": 413083,
+          "reasoningOutputTokens": 259520,
+          "totalTokens": 60602532,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 26, 2025",
+      "inputTokens": 44501401,
+      "cachedInputTokens": 42516096,
+      "outputTokens": 316523,
+      "reasoningOutputTokens": 202432,
+      "totalTokens": 44817924,
+      "costUSD": 10.961373250000001,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 44501401,
+          "cachedInputTokens": 42516096,
+          "outputTokens": 316523,
+          "reasoningOutputTokens": 202432,
+          "totalTokens": 44817924,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 27, 2025",
+      "inputTokens": 24317711,
+      "cachedInputTokens": 23258880,
+      "outputTokens": 152856,
+      "reasoningOutputTokens": 95104,
+      "totalTokens": 24470567,
+      "costUSD": 5.759458749999999,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 24317711,
+          "cachedInputTokens": 23258880,
+          "outputTokens": 152856,
+          "reasoningOutputTokens": 95104,
+          "totalTokens": 24470567,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 29, 2025",
+      "inputTokens": 78701482,
+      "cachedInputTokens": 74754048,
+      "outputTokens": 737870,
+      "reasoningOutputTokens": 342720,
+      "totalTokens": 79439352,
+      "costUSD": 21.6572485,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 60894867,
+          "cachedInputTokens": 57526016,
+          "outputTokens": 539906,
+          "reasoningOutputTokens": 266752,
+          "totalTokens": 61434773,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 17806615,
+          "cachedInputTokens": 17228032,
+          "outputTokens": 197964,
+          "reasoningOutputTokens": 75968,
+          "totalTokens": 18004579,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Sep 30, 2025",
+      "inputTokens": 120519939,
+      "cachedInputTokens": 115724416,
+      "outputTokens": 1504748,
+      "reasoningOutputTokens": 726080,
+      "totalTokens": 122024687,
+      "costUSD": 35.50743575,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 104764021,
+          "cachedInputTokens": 100881920,
+          "outputTokens": 1152527,
+          "reasoningOutputTokens": 613376,
+          "totalTokens": 105916548,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 15755918,
+          "cachedInputTokens": 14842496,
+          "outputTokens": 352221,
+          "reasoningOutputTokens": 112704,
+          "totalTokens": 16108139,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 01, 2025",
+      "inputTokens": 67068764,
+      "cachedInputTokens": 63369344,
+      "outputTokens": 487253,
+      "reasoningOutputTokens": 314048,
+      "totalTokens": 67556017,
+      "costUSD": 17.417973,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 67068764,
+          "cachedInputTokens": 63369344,
+          "outputTokens": 487253,
+          "reasoningOutputTokens": 314048,
+          "totalTokens": 67556017,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 02, 2025",
+      "inputTokens": 55159352,
+      "cachedInputTokens": 52204544,
+      "outputTokens": 434825,
+      "reasoningOutputTokens": 291136,
+      "totalTokens": 55594177,
+      "costUSD": 14.567328,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 55150142,
+          "cachedInputTokens": 52198656,
+          "outputTokens": 428602,
+          "reasoningOutputTokens": 285824,
+          "totalTokens": 55578744,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 9210,
+          "cachedInputTokens": 5888,
+          "outputTokens": 6223,
+          "reasoningOutputTokens": 5312,
+          "totalTokens": 15433,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 03, 2025",
+      "inputTokens": 66915829,
+      "cachedInputTokens": 64032512,
+      "outputTokens": 336902,
+      "reasoningOutputTokens": 202368,
+      "totalTokens": 67252731,
+      "costUSD": 14.977230250000002,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 66369623,
+          "cachedInputTokens": 63857536,
+          "outputTokens": 324622,
+          "reasoningOutputTokens": 193792,
+          "totalTokens": 66694245,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 546206,
+          "cachedInputTokens": 174976,
+          "outputTokens": 12280,
+          "reasoningOutputTokens": 8576,
+          "totalTokens": 558486,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 04, 2025",
+      "inputTokens": 5879944,
+      "cachedInputTokens": 5844480,
+      "outputTokens": 5181,
+      "reasoningOutputTokens": 1216,
+      "totalTokens": 5885125,
+      "costUSD": 0.8267,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 5879944,
+          "cachedInputTokens": 5844480,
+          "outputTokens": 5181,
+          "reasoningOutputTokens": 1216,
+          "totalTokens": 5885125,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 06, 2025",
+      "inputTokens": 78654228,
+      "cachedInputTokens": 69511680,
+      "outputTokens": 640225,
+      "reasoningOutputTokens": 311424,
+      "totalTokens": 79294453,
+      "costUSD": 26.519395000000003,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 78654228,
+          "cachedInputTokens": 69511680,
+          "outputTokens": 640225,
+          "reasoningOutputTokens": 311424,
+          "totalTokens": 79294453,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 07, 2025",
+      "inputTokens": 29969523,
+      "cachedInputTokens": 27410816,
+      "outputTokens": 266243,
+      "reasoningOutputTokens": 180544,
+      "totalTokens": 30235766,
+      "costUSD": 9.28716575,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 29969523,
+          "cachedInputTokens": 27410816,
+          "outputTokens": 266243,
+          "reasoningOutputTokens": 180544,
+          "totalTokens": 30235766,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 08, 2025",
+      "inputTokens": 72006533,
+      "cachedInputTokens": 70062208,
+      "outputTokens": 382561,
+      "reasoningOutputTokens": 279616,
+      "totalTokens": 72389094,
+      "costUSD": 15.01379225,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 72006533,
+          "cachedInputTokens": 70062208,
+          "outputTokens": 382561,
+          "reasoningOutputTokens": 279616,
+          "totalTokens": 72389094,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 09, 2025",
+      "inputTokens": 54267014,
+      "cachedInputTokens": 51009792,
+      "outputTokens": 366930,
+      "reasoningOutputTokens": 269184,
+      "totalTokens": 54633944,
+      "costUSD": 14.117051499999999,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 54267014,
+          "cachedInputTokens": 51009792,
+          "outputTokens": 366930,
+          "reasoningOutputTokens": 269184,
+          "totalTokens": 54633944,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 10, 2025",
+      "inputTokens": 16010610,
+      "cachedInputTokens": 14896128,
+      "outputTokens": 225905,
+      "reasoningOutputTokens": 185984,
+      "totalTokens": 16236515,
+      "costUSD": 5.5141685,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 16010610,
+          "cachedInputTokens": 14896128,
+          "outputTokens": 225905,
+          "reasoningOutputTokens": 185984,
+          "totalTokens": 16236515,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 14, 2025",
+      "inputTokens": 38622655,
+      "cachedInputTokens": 36889216,
+      "outputTokens": 561982,
+      "reasoningOutputTokens": 415680,
+      "totalTokens": 39184637,
+      "costUSD": 12.39777075,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 38622655,
+          "cachedInputTokens": 36889216,
+          "outputTokens": 561982,
+          "reasoningOutputTokens": 415680,
+          "totalTokens": 39184637,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 15, 2025",
+      "inputTokens": 139072508,
+      "cachedInputTokens": 133376512,
+      "outputTokens": 835703,
+      "reasoningOutputTokens": 528512,
+      "totalTokens": 139908211,
+      "costUSD": 32.149089,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 139072508,
+          "cachedInputTokens": 133376512,
+          "outputTokens": 835703,
+          "reasoningOutputTokens": 528512,
+          "totalTokens": 139908211,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 16, 2025",
+      "inputTokens": 27869843,
+      "cachedInputTokens": 26430720,
+      "outputTokens": 321639,
+      "reasoningOutputTokens": 179456,
+      "totalTokens": 28191482,
+      "costUSD": 8.31913375,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 27869843,
+          "cachedInputTokens": 26430720,
+          "outputTokens": 321639,
+          "reasoningOutputTokens": 179456,
+          "totalTokens": 28191482,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 18, 2025",
+      "inputTokens": 239592191,
+      "cachedInputTokens": 231521280,
+      "outputTokens": 1050619,
+      "reasoningOutputTokens": 562112,
+      "totalTokens": 240642810,
+      "costUSD": 49.53498875,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 239592191,
+          "cachedInputTokens": 231521280,
+          "outputTokens": 1050619,
+          "reasoningOutputTokens": 562112,
+          "totalTokens": 240642810,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 19, 2025",
+      "inputTokens": 493965146,
+      "cachedInputTokens": 481824000,
+      "outputTokens": 1555009,
+      "reasoningOutputTokens": 788416,
+      "totalTokens": 495520155,
+      "costUSD": 90.9545225,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 493965146,
+          "cachedInputTokens": 481824000,
+          "outputTokens": 1555009,
+          "reasoningOutputTokens": 788416,
+          "totalTokens": 495520155,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 20, 2025",
+      "inputTokens": 95810909,
+      "cachedInputTokens": 93453952,
+      "outputTokens": 628196,
+      "reasoningOutputTokens": 422784,
+      "totalTokens": 96439105,
+      "costUSD": 20.90990025,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 95810909,
+          "cachedInputTokens": 93453952,
+          "outputTokens": 628196,
+          "reasoningOutputTokens": 422784,
+          "totalTokens": 96439105,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 21, 2025",
+      "inputTokens": 83881513,
+      "cachedInputTokens": 81100416,
+      "outputTokens": 577157,
+      "reasoningOutputTokens": 367168,
+      "totalTokens": 84458670,
+      "costUSD": 19.38549325,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 83542126,
+          "cachedInputTokens": 80882048,
+          "outputTokens": 568983,
+          "reasoningOutputTokens": 361856,
+          "totalTokens": 84111109,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 339387,
+          "cachedInputTokens": 218368,
+          "outputTokens": 8174,
+          "reasoningOutputTokens": 5312,
+          "totalTokens": 347561,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 22, 2025",
+      "inputTokens": 24120540,
+      "cachedInputTokens": 22822144,
+      "outputTokens": 165834,
+      "reasoningOutputTokens": 62400,
+      "totalTokens": 24286374,
+      "costUSD": 6.1341030000000005,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 24120540,
+          "cachedInputTokens": 22822144,
+          "outputTokens": 165834,
+          "reasoningOutputTokens": 62400,
+          "totalTokens": 24286374,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 23, 2025",
+      "inputTokens": 161606392,
+      "cachedInputTokens": 157787520,
+      "outputTokens": 771034,
+      "reasoningOutputTokens": 361856,
+      "totalTokens": 162377426,
+      "costUSD": 32.20737,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 161606392,
+          "cachedInputTokens": 157787520,
+          "outputTokens": 771034,
+          "reasoningOutputTokens": 361856,
+          "totalTokens": 162377426,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 24, 2025",
+      "inputTokens": 103990045,
+      "cachedInputTokens": 89198720,
+      "outputTokens": 498222,
+      "reasoningOutputTokens": 260096,
+      "totalTokens": 104488267,
+      "costUSD": 34.621216249999996,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 103990045,
+          "cachedInputTokens": 89198720,
+          "outputTokens": 498222,
+          "reasoningOutputTokens": 260096,
+          "totalTokens": 104488267,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 25, 2025",
+      "inputTokens": 219216491,
+      "cachedInputTokens": 195809152,
+      "outputTokens": 1041544,
+      "reasoningOutputTokens": 474688,
+      "totalTokens": 220258035,
+      "costUSD": 64.15075775,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 207524184,
+          "cachedInputTokens": 184877568,
+          "outputTokens": 931529,
+          "reasoningOutputTokens": 447488,
+          "totalTokens": 208455713,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 11692307,
+          "cachedInputTokens": 10931584,
+          "outputTokens": 110015,
+          "reasoningOutputTokens": 27200,
+          "totalTokens": 11802322,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 26, 2025",
+      "inputTokens": 21511837,
+      "cachedInputTokens": 17945856,
+      "outputTokens": 189030,
+      "reasoningOutputTokens": 101568,
+      "totalTokens": 21700867,
+      "costUSD": 8.59100825,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 21511837,
+          "cachedInputTokens": 17945856,
+          "outputTokens": 189030,
+          "reasoningOutputTokens": 101568,
+          "totalTokens": 21700867,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 27, 2025",
+      "inputTokens": 53384250,
+      "cachedInputTokens": 48236160,
+      "outputTokens": 415321,
+      "reasoningOutputTokens": 252672,
+      "totalTokens": 53799571,
+      "costUSD": 16.617842500000002,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 53384250,
+          "cachedInputTokens": 48236160,
+          "outputTokens": 415321,
+          "reasoningOutputTokens": 252672,
+          "totalTokens": 53799571,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 28, 2025",
+      "inputTokens": 156134420,
+      "cachedInputTokens": 149626624,
+      "outputTokens": 770480,
+      "reasoningOutputTokens": 372992,
+      "totalTokens": 156904900,
+      "costUSD": 34.542873,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 146239720,
+          "cachedInputTokens": 140724992,
+          "outputTokens": 685227,
+          "reasoningOutputTokens": 325568,
+          "totalTokens": 146924947,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 9894700,
+          "cachedInputTokens": 8901632,
+          "outputTokens": 85253,
+          "reasoningOutputTokens": 47424,
+          "totalTokens": 9979953,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 29, 2025",
+      "inputTokens": 21507555,
+      "cachedInputTokens": 20310144,
+      "outputTokens": 221266,
+      "reasoningOutputTokens": 96384,
+      "totalTokens": 21728821,
+      "costUSD": 6.24819175,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 2279247,
+          "cachedInputTokens": 1831424,
+          "outputTokens": 15647,
+          "reasoningOutputTokens": 12032,
+          "totalTokens": 2294894,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 19228308,
+          "cachedInputTokens": 18478720,
+          "outputTokens": 205619,
+          "reasoningOutputTokens": 84352,
+          "totalTokens": 19433927,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 30, 2025",
+      "inputTokens": 50278649,
+      "cachedInputTokens": 48169216,
+      "outputTokens": 352056,
+      "reasoningOutputTokens": 166272,
+      "totalTokens": 50630705,
+      "costUSD": 12.178503249999999,
+      "models": {
+        "gpt-5": {
+          "inputTokens": 1271816,
+          "cachedInputTokens": 1009664,
+          "outputTokens": 11664,
+          "reasoningOutputTokens": 2688,
+          "totalTokens": 1283480,
+          "isFallback": false
+        },
+        "gpt-5-codex": {
+          "inputTokens": 49006833,
+          "cachedInputTokens": 47159552,
+          "outputTokens": 340392,
+          "reasoningOutputTokens": 163584,
+          "totalTokens": 49347225,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Oct 31, 2025",
+      "inputTokens": 32849723,
+      "cachedInputTokens": 31500928,
+      "outputTokens": 109486,
+      "reasoningOutputTokens": 62720,
+      "totalTokens": 32959209,
+      "costUSD": 6.71846975,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 32849723,
+          "cachedInputTokens": 31500928,
+          "outputTokens": 109486,
+          "reasoningOutputTokens": 62720,
+          "totalTokens": 32959209,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 02, 2025",
+      "inputTokens": 2432427,
+      "cachedInputTokens": 2083968,
+      "outputTokens": 15439,
+      "reasoningOutputTokens": 10496,
+      "totalTokens": 2447866,
+      "costUSD": 0.8504597500000001,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 2432427,
+          "cachedInputTokens": 2083968,
+          "outputTokens": 15439,
+          "reasoningOutputTokens": 10496,
+          "totalTokens": 2447866,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 03, 2025",
+      "inputTokens": 392446515,
+      "cachedInputTokens": 366829312,
+      "outputTokens": 2253037,
+      "reasoningOutputTokens": 1353408,
+      "totalTokens": 394699552,
+      "costUSD": 100.40553775000001,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 392446515,
+          "cachedInputTokens": 366829312,
+          "outputTokens": 2253037,
+          "reasoningOutputTokens": 1353408,
+          "totalTokens": 394699552,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 04, 2025",
+      "inputTokens": 92513742,
+      "cachedInputTokens": 88505472,
+      "outputTokens": 579326,
+      "reasoningOutputTokens": 404480,
+      "totalTokens": 93093068,
+      "costUSD": 21.8667815,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 92513742,
+          "cachedInputTokens": 88505472,
+          "outputTokens": 579326,
+          "reasoningOutputTokens": 404480,
+          "totalTokens": 93093068,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 05, 2025",
+      "inputTokens": 298032677,
+      "cachedInputTokens": 275489920,
+      "outputTokens": 1842532,
+      "reasoningOutputTokens": 1187776,
+      "totalTokens": 299875209,
+      "costUSD": 81.04000625,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 298032677,
+          "cachedInputTokens": 275489920,
+          "outputTokens": 1842532,
+          "reasoningOutputTokens": 1187776,
+          "totalTokens": 299875209,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 06, 2025",
+      "inputTokens": 416214047,
+      "cachedInputTokens": 383249536,
+      "outputTokens": 3319030,
+      "reasoningOutputTokens": 2036736,
+      "totalTokens": 419533077,
+      "costUSD": 122.30213075,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 416214047,
+          "cachedInputTokens": 383249536,
+          "outputTokens": 3319030,
+          "reasoningOutputTokens": 2036736,
+          "totalTokens": 419533077,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 07, 2025",
+      "inputTokens": 366119911,
+      "cachedInputTokens": 337649024,
+      "outputTokens": 2057334,
+      "reasoningOutputTokens": 1324416,
+      "totalTokens": 368177245,
+      "costUSD": 98.36807675,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 366119911,
+          "cachedInputTokens": 337649024,
+          "outputTokens": 2057334,
+          "reasoningOutputTokens": 1324416,
+          "totalTokens": 368177245,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 08, 2025",
+      "inputTokens": 5577395,
+      "cachedInputTokens": 4194816,
+      "outputTokens": 38421,
+      "reasoningOutputTokens": 19328,
+      "totalTokens": 5615816,
+      "costUSD": 2.63678575,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 5577395,
+          "cachedInputTokens": 4194816,
+          "outputTokens": 38421,
+          "reasoningOutputTokens": 19328,
+          "totalTokens": 5615816,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 09, 2025",
+      "inputTokens": 218595097,
+      "cachedInputTokens": 192999040,
+      "outputTokens": 2143385,
+      "reasoningOutputTokens": 1008256,
+      "totalTokens": 220738482,
+      "costUSD": 77.55380124999999,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 218595097,
+          "cachedInputTokens": 192999040,
+          "outputTokens": 2143385,
+          "reasoningOutputTokens": 1008256,
+          "totalTokens": 220738482,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 10, 2025",
+      "inputTokens": 281716765,
+      "cachedInputTokens": 267667072,
+      "outputTokens": 1933837,
+      "reasoningOutputTokens": 1143680,
+      "totalTokens": 283650602,
+      "costUSD": 70.35887025,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 281716765,
+          "cachedInputTokens": 267667072,
+          "outputTokens": 1933837,
+          "reasoningOutputTokens": 1143680,
+          "totalTokens": 283650602,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 11, 2025",
+      "inputTokens": 562017222,
+      "cachedInputTokens": 519959168,
+      "outputTokens": 3746741,
+      "reasoningOutputTokens": 2286016,
+      "totalTokens": 565763963,
+      "costUSD": 155.0348735,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 562017222,
+          "cachedInputTokens": 519959168,
+          "outputTokens": 3746741,
+          "reasoningOutputTokens": 2286016,
+          "totalTokens": 565763963,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 12, 2025",
+      "inputTokens": 1834085701,
+      "cachedInputTokens": 1768736128,
+      "outputTokens": 6937847,
+      "reasoningOutputTokens": 3701312,
+      "totalTokens": 1841023548,
+      "costUSD": 372.15745225,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 1834085701,
+          "cachedInputTokens": 1768736128,
+          "outputTokens": 6937847,
+          "reasoningOutputTokens": 3701312,
+          "totalTokens": 1841023548,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 13, 2025",
+      "inputTokens": 165029383,
+      "cachedInputTokens": 153172992,
+      "outputTokens": 608282,
+      "reasoningOutputTokens": 351808,
+      "totalTokens": 165637665,
+      "costUSD": 40.049932749999996,
+      "models": {
+        "gpt-5-codex": {
+          "inputTokens": 165029383,
+          "cachedInputTokens": 153172992,
+          "outputTokens": 608282,
+          "reasoningOutputTokens": 351808,
+          "totalTokens": 165637665,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 14, 2025",
+      "inputTokens": 187882058,
+      "cachedInputTokens": 183022592,
+      "outputTokens": 898613,
+      "reasoningOutputTokens": 578688,
+      "totalTokens": 188780671,
+      "costUSD": 37.938286500000004,
+      "models": {
+        "gpt-5.1-codex": {
+          "inputTokens": 167542019,
+          "cachedInputTokens": 163985920,
+          "outputTokens": 826481,
+          "reasoningOutputTokens": 532672,
+          "totalTokens": 168368500,
+          "isFallback": false
+        },
+        "gpt-5-codex": {
+          "inputTokens": 20340039,
+          "cachedInputTokens": 19036672,
+          "outputTokens": 72132,
+          "reasoningOutputTokens": 46016,
+          "totalTokens": 20412171,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 15, 2025",
+      "inputTokens": 199990182,
+      "cachedInputTokens": 184195072,
+      "outputTokens": 1962426,
+      "reasoningOutputTokens": 1079104,
+      "totalTokens": 201952608,
+      "costUSD": 62.3925315,
+      "models": {
+        "gpt-5.1-codex": {
+          "inputTokens": 199990182,
+          "cachedInputTokens": 184195072,
+          "outputTokens": 1962426,
+          "reasoningOutputTokens": 1079104,
+          "totalTokens": 201952608,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 16, 2025",
+      "inputTokens": 559402885,
+      "cachedInputTokens": 517229696,
+      "outputTokens": 3791926,
+      "reasoningOutputTokens": 1770112,
+      "totalTokens": 563194811,
+      "costUSD": 155.28945825,
+      "models": {
+        "gpt-5.1-codex": {
+          "inputTokens": 559402885,
+          "cachedInputTokens": 517229696,
+          "outputTokens": 3791926,
+          "reasoningOutputTokens": 1770112,
+          "totalTokens": 563194811,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 17, 2025",
+      "inputTokens": 693540383,
+      "cachedInputTokens": 661904768,
+      "outputTokens": 3859941,
+      "reasoningOutputTokens": 2248640,
+      "totalTokens": 697400324,
+      "costUSD": 160.88202475,
+      "models": {
+        "gpt-5.1-codex": {
+          "inputTokens": 693540383,
+          "cachedInputTokens": 661904768,
+          "outputTokens": 3859941,
+          "reasoningOutputTokens": 2248640,
+          "totalTokens": 697400324,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 19, 2025",
+      "inputTokens": 850640494,
+      "cachedInputTokens": 818788608,
+      "outputTokens": 4691261,
+      "reasoningOutputTokens": 3003712,
+      "totalTokens": 855331755,
+      "costUSD": 189.0760435,
+      "models": {
+        "gpt-5.1-codex": {
+          "inputTokens": 850640494,
+          "cachedInputTokens": 818788608,
+          "outputTokens": 4691261,
+          "reasoningOutputTokens": 3003712,
+          "totalTokens": 855331755,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 20, 2025",
+      "inputTokens": 127502366,
+      "cachedInputTokens": 120770176,
+      "outputTokens": 618132,
+      "reasoningOutputTokens": 440640,
+      "totalTokens": 128120498,
+      "costUSD": 29.692829499999995,
+      "models": {
+        "gpt-5.1-codex-max": {
+          "inputTokens": 116438864,
+          "cachedInputTokens": 110490496,
+          "outputTokens": 527276,
+          "reasoningOutputTokens": 368064,
+          "totalTokens": 116966140,
+          "isFallback": false
+        },
+        "gpt-5.1-codex": {
+          "inputTokens": 5531751,
+          "cachedInputTokens": 5139840,
+          "outputTokens": 45428,
+          "reasoningOutputTokens": 36288,
+          "totalTokens": 5577179,
+          "isFallback": false
+        },
+        "gpt-5": {
+          "inputTokens": 5531751,
+          "cachedInputTokens": 5139840,
+          "outputTokens": 45428,
+          "reasoningOutputTokens": 36288,
+          "totalTokens": 5577179,
+          "isFallback": true
+        }
+      }
+    },
+    {
+      "date": "Nov 21, 2025",
+      "inputTokens": 247816772,
+      "cachedInputTokens": 233480832,
+      "outputTokens": 1200644,
+      "reasoningOutputTokens": 688512,
+      "totalTokens": 249017416,
+      "costUSD": 59.111469,
+      "models": {
+        "gpt-5.1-codex-max": {
+          "inputTokens": 247816772,
+          "cachedInputTokens": 233480832,
+          "outputTokens": 1200644,
+          "reasoningOutputTokens": 688512,
+          "totalTokens": 249017416,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 23, 2025",
+      "inputTokens": 154617889,
+      "cachedInputTokens": 137764864,
+      "outputTokens": 1776241,
+      "reasoningOutputTokens": 1028032,
+      "totalTokens": 156394130,
+      "costUSD": 56.049299250000004,
+      "models": {
+        "gpt-5.1-codex-max": {
+          "inputTokens": 154617889,
+          "cachedInputTokens": 137764864,
+          "outputTokens": 1776241,
+          "reasoningOutputTokens": 1028032,
+          "totalTokens": 156394130,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Nov 24, 2025",
+      "inputTokens": 59044607,
+      "cachedInputTokens": 54439808,
+      "outputTokens": 776443,
+      "reasoningOutputTokens": 403328,
+      "totalTokens": 59821050,
+      "costUSD": 20.32540475,
+      "models": {
+        "gpt-5.1-codex-max": {
+          "inputTokens": 59044607,
+          "cachedInputTokens": 54439808,
+          "outputTokens": 776443,
+          "reasoningOutputTokens": 403328,
+          "totalTokens": 59821050,
+          "isFallback": false
+        }
+      }
+    }
+  ],
+  "lastUpdated": "2025-11-24T05:38:11.337Z"
+}

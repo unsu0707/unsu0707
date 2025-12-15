@@ -1683,42 +1683,115 @@
     },
     {
       "date": "Dec 09, 2025",
-      "inputTokens": 2086005640,
-      "cachedInputTokens": 1949699200,
-      "outputTokens": 6167931,
-      "reasoningOutputTokens": 3519488,
-      "totalTokens": 2092173571,
-      "costUSD": 475.77476,
+      "inputTokens": 2351215216,
+      "cachedInputTokens": 2198316160,
+      "outputTokens": 8077539,
+      "reasoningOutputTokens": 4818944,
+      "totalTokens": 2359292755,
+      "costUSD": 546.68873,
       "models": {
         "gpt-5.1-codex-max": {
-          "inputTokens": 2086005640,
-          "cachedInputTokens": 1949699200,
-          "outputTokens": 6167931,
-          "reasoningOutputTokens": 3519488,
-          "totalTokens": 2092173571,
+          "inputTokens": 2351215216,
+          "cachedInputTokens": 2198316160,
+          "outputTokens": 8077539,
+          "reasoningOutputTokens": 4818944,
+          "totalTokens": 2359292755,
           "isFallback": false
         }
       }
     },
     {
       "date": "Dec 10, 2025",
-      "inputTokens": 222185774,
-      "cachedInputTokens": 196990592,
-      "outputTokens": 863753,
-      "reasoningOutputTokens": 234112,
-      "totalTokens": 223049527,
-      "costUSD": 64.7553315,
+      "inputTokens": 1495868149,
+      "cachedInputTokens": 1273464960,
+      "outputTokens": 4813586,
+      "reasoningOutputTokens": 1570112,
+      "totalTokens": 1500681735,
+      "costUSD": 485.32296625000004,
       "models": {
         "gpt-5.1-codex-max": {
-          "inputTokens": 222185774,
-          "cachedInputTokens": 196990592,
-          "outputTokens": 863753,
-          "reasoningOutputTokens": 234112,
-          "totalTokens": 223049527,
+          "inputTokens": 1495868149,
+          "cachedInputTokens": 1273464960,
+          "outputTokens": 4813586,
+          "reasoningOutputTokens": 1570112,
+          "totalTokens": 1500681735,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Dec 11, 2025",
+      "inputTokens": 417693654,
+      "cachedInputTokens": 381746432,
+      "outputTokens": 2640029,
+      "reasoningOutputTokens": 1687232,
+      "totalTokens": 420333683,
+      "costUSD": 119.0526215,
+      "models": {
+        "gpt-5.1-codex-max": {
+          "inputTokens": 417693654,
+          "cachedInputTokens": 381746432,
+          "outputTokens": 2640029,
+          "reasoningOutputTokens": 1687232,
+          "totalTokens": 420333683,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Dec 12, 2025",
+      "inputTokens": 434947115,
+      "cachedInputTokens": 385627392,
+      "outputTokens": 2357357,
+      "reasoningOutputTokens": 1513506,
+      "totalTokens": 437304472,
+      "costUSD": 135.82464155,
+      "models": {
+        "gpt-5.2": {
+          "inputTokens": 22082994,
+          "cachedInputTokens": 21376896,
+          "outputTokens": 244025,
+          "reasoningOutputTokens": 129698,
+          "totalTokens": 22327019,
+          "isFallback": false
+        },
+        "gpt-5.1-codex-max": {
+          "inputTokens": 412864121,
+          "cachedInputTokens": 364250496,
+          "outputTokens": 2113332,
+          "reasoningOutputTokens": 1383808,
+          "totalTokens": 414977453,
+          "isFallback": false
+        }
+      }
+    },
+    {
+      "date": "Dec 15, 2025",
+      "inputTokens": 322326746,
+      "cachedInputTokens": 315154048,
+      "outputTokens": 2092249,
+      "reasoningOutputTokens": 1440025,
+      "totalTokens": 324418995,
+      "costUSD": 96.3641495,
+      "models": {
+        "gpt-5.2": {
+          "inputTokens": 314424766,
+          "cachedInputTokens": 307539840,
+          "outputTokens": 2065519,
+          "reasoningOutputTokens": 1426841,
+          "totalTokens": 316490285,
+          "isFallback": false
+        },
+        "gpt-5.1-codex-max": {
+          "inputTokens": 7901980,
+          "cachedInputTokens": 7614208,
+          "outputTokens": 26730,
+          "reasoningOutputTokens": 13184,
+          "totalTokens": 7928710,
           "isFallback": false
         }
       }
     }
   ],
-  "lastUpdated": "2025-12-10T05:33:00.312Z"
+  "lastUpdated": "2025-12-15T06:41:49.991Z"
 }
